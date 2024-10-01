@@ -1,0 +1,27 @@
+kits:
+   dirtman:
+      display-name: "Toprak Gücü"
+      menu-lore: 
+         - "Toprak Yetenekleri Kullanabilen Bir Kit"
+         - "Daha Fazla detay için..."
+      price: 10
+      item-list:
+         WOOD_SWORD:
+            count: 1
+            enchs:
+               KNOCKBACK:
+                  ench-level: 1
+               MENDING:
+                  ench-level: 1
+      armor-list:
+         LEATHER_HELMET:
+            count: 1
+            enchs:
+               MENDING:
+                  ench-level: 1
+      permission-string: "MileniumCraft.Dirt"
+      icons:
+         DIRT:
+            custom-ench: false
+         COARSE_DIRT:
+            custom-ench: true

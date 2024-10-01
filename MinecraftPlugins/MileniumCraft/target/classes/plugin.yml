@@ -1,0 +1,13 @@
+name: MileniumCraft
+main: me.erano.com.Plugin
+author: Erano
+description: MileniumCraft Plugin
+version: 1.0
+api-version: 1.16
+commands:
+  testSkull:
+      description: creates skull
+      usage: /testSkull
+  gui:
+     description: open requested menu
+     usage: /gui

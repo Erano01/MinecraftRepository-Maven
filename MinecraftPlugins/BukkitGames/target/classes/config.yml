@@ -1,0 +1,16 @@
+hooks:
+  bungeecord: true
+  sendPlayerToServer: "Lobby"
+database:
+  host: "127.0.0.1"
+  port: "3306"
+  name: "eranomc"
+  username: "EranoMC-Admin"
+  password: "4445558a7sdaB."
+timers:
+  gamestarter: 300
+  invincible: 60
+  battle: 60
+  deathmatch: 240
+  firework: 10
+minplayertostart: 2

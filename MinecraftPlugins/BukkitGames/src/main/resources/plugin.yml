@@ -1,0 +1,19 @@
+name: BukkitGames
+main: me.erano.com.Plugin
+author: Erano
+description: BukkitGames
+version: 1.0
+commands:
+   Kit:
+      description: Kit Sec
+      usage: /kit
+   Online:
+      description: online oyuncu sayisi
+      usage: /online
+   setcoin:
+      description: setcoin
+      usage: /setcoin
+   coin:
+      description: coin
+      usage: /coin <OptionalPlayerName>
+depend: [NBTAPI,WorldGuard]

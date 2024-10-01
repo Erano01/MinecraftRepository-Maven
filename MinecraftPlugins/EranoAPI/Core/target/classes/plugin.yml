@@ -1,0 +1,6 @@
+name: Core
+version: 1.0
+main: me.erano.com.CorePlugin
+commands:
+   showTPS:
+      description: Shows the current TPS
