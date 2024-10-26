@@ -6,6 +6,7 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>MinecraftPlugins/EranoAPI/NMS/V1_21_R1</module>
+        <module>MinecraftPlugins/EranoAPI</module>
+        <module>MinecraftPlugins/BukkitGames</module>
     </modules>
 </project>

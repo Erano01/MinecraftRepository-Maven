@@ -5,7 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MinecraftPlugins/BukkitGames/pom.xml" />
+        <option value="$PROJECT_DIR$/MinecraftPlugins/EranoAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/MinecraftPlugins/MileniumCraft/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="23" project-jdk-type="JavaSDK" />
 </project>
