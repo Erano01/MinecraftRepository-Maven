@@ -1,4 +1,4 @@
 me\erano\com\core\examples\ShowTPSCommand.class
+me\erano\com\core\performance\TPSHandler.class
 me\erano\com\core\examples\ActionBarTask.class
-me\erano\com\core\NMSHandler.class
 me\erano\com\core\CorePlugin.class

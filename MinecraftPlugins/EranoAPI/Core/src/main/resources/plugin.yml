@@ -1,6 +1,6 @@
-name: Core
+name: EranoAPI
 version: 1.0
-main: me.erano.com.CorePlugin
+main: me.erano.com.core.CorePlugin
 commands:
    showTPS:
       description: Shows the current TPS
