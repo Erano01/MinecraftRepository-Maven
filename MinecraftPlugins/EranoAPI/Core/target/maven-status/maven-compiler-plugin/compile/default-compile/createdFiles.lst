@@ -1,4 +1,6 @@
-me\erano\com\core\examples\ShowTPSCommand.class
+me\erano\com\core\performance\TPSHandlerFactory.class
+me\erano\com\core\performance\ActionBarTask.class
+me\erano\com\core\performance\ShowTPSCommand.class
 me\erano\com\core\performance\TPSHandler.class
-me\erano\com\core\examples\ActionBarTask.class
 me\erano\com\core\CorePlugin.class
+me\erano\com\core\performance\TPSHandlerFactoryClassMapper.class

@@ -22,22 +22,22 @@ public class TPSHandlerFactoryClassMapper {
     }
 
     static {
-        versionToClassMap.put("1.17.1", "me.erano.com.core.performance.v1_17_R1.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.18.1", "me.erano.com.core.performance.v1_18_R1.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.18.2", "me.erano.com.core.performance.v1_18_R2.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.19.1", "me.erano.com.core.performance.V1_19_R1.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.19.2", "me.erano.com.core.performance.V1_19_R1.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.19.3", "me.erano.com.core.performance.v1_19_R2.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.19.4", "me.erano.com.core.performance.v1_19_R3.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.20.1", "me.erano.com.core.performance.v1_20_R1.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.20.2", "me.erano.com.core.performance.v1_20_R2.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.20.3", "me.erano.com.core.performance.v1_20_R3.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.20.4", "me.erano.com.core.performance.v1_20_R3.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.20.5", "me.erano.com.core.performance.v1_20_R3.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.20.6", "me.erano.com.core.performance.v1_20_R3.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.21.1", "me.erano.com.core.performance.v1_21_R1.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.21.2", "me.erano.com.core.performance.v1_21_R2.TPSHandlerFactoryImpl");
-        versionToClassMap.put("1.21.3", "me.erano.com.core.performance.v1_21_R2.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.17.1", "me.erano.com.v1_17_R1.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.18.1", "me.erano.com.v1_18_R1.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.18.2", "me.erano.com.v1_18_R2.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.19.1", "me.erano.com.V1_19_R1.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.19.2", "me.erano.com.V1_19_R1.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.19.3", "me.erano.com.v1_19_R2.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.19.4", "me.erano.com.v1_19_R3.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.20.1", "me.erano.com.v1_20_R1.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.20.2", "me.erano.com.v1_20_R2.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.20.3", "me.erano.com.v1_20_R3.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.20.4", "me.erano.com.v1_20_R3.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.20.5", "me.erano.com.v1_20_R3.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.20.6", "me.erano.com.v1_20_R3.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.21.1", "me.erano.com.v1_21_R1.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.21.2", "me.erano.com.v1_21_R2.performance.TPSHandlerFactoryImpl");
+        versionToClassMap.put("1.21.3", "me.erano.com.v1_21_R2.performance.TPSHandlerFactoryImpl");
     }
 
     private static String getHandlerClassName(String version) {

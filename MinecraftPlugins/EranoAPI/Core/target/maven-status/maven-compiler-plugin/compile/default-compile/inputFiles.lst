@@ -1,4 +1,6 @@
 D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\CorePlugin.java
-D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\examples\ActionBarTask.java
-D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\examples\ShowTPSCommand.java
+D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\performance\ActionBarTask.java
+D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\performance\ShowTPSCommand.java
 D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\performance\TPSHandler.java
+D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\performance\TPSHandlerFactory.java
+D:\JavaWorkspace-IntelliJ\MinecraftRepository-Maven\MinecraftPlugins\EranoAPI\Core\src\main\java\me\erano\com\core\performance\TPSHandlerFactoryClassMapper.java
