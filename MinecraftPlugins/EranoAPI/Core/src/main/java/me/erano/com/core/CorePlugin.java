@@ -55,7 +55,10 @@ public class CorePlugin extends JavaPlugin{
         String minecraftVersion = getMinecraftVersion();
         String nmsHandlerClassName;
 
-        if (minecraftVersion.equals("1.21.1")) {
+        if (minecraftVersion.equals("1.21.2") ||minecraftVersion.equals("1.21.3")) {
+            nmsHandlerClassName = "me.erano.com.V1_21_R2.NMSHandlerImpl";
+        }
+        else if (minecraftVersion.equals("1.21.1")){
             nmsHandlerClassName = "me.erano.com.V1_21_R1.NMSHandlerImpl";
         }
         else if (minecraftVersion.equals("1.20.3") || minecraftVersion.equals("1.20.4")){
