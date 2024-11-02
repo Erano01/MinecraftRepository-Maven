@@ -1,8 +1,12 @@
 package me.erano.com.core.menu;
 
+import org.bukkit.inventory.ItemStack;
+
 //leaf element of composite pattern for menu feature
 public abstract class Button implements Component{
 
+    private ItemStack icon;
+    private String name;
 
     @Override
     public void draw() {
