@@ -15,6 +15,7 @@ import java.util.Map;
 //composite element of composite pattern for menu feature
 public abstract class Menu implements Component{
 
+    protected Inventory inventory;
     protected ItemStack icon;
     protected String name;
     protected final Map<Integer, Component> componentMap = new HashMap<>();
@@ -22,7 +23,7 @@ public abstract class Menu implements Component{
     public Menu(String name, ItemStack icon) {
         this.name = name;
         this.icon = icon;
-        //this.inventory = this.createInventory();
+        this.inventory = this.createInventory();
     }
 
     @Override
@@ -40,26 +41,21 @@ public abstract class Menu implements Component{
         return componentMap.get(index);
     }
 
-    @Override
     public String getName() {
         return this.name;
     }
 
-    @Override
     public ItemStack getIcon() {
         return this.icon;
     }
 
-    public void onClick(InventoryClickEvent event){
-        event.setCancelled(true);
-        int slot = event.getSlot();
-        Component component = componentMap.get(slot);
-        if (component != null) {
-            component.draw();
-        }
+    public Inventory getInventory() {
+        return inventory;
     }
-    abstract void onOpen(InventoryOpenEvent event);
-    abstract void onClose(InventoryCloseEvent event);
+
+    protected abstract void onClick(InventoryClickEvent event);
+    protected abstract void onOpen(InventoryOpenEvent event);
+    protected abstract void onClose(InventoryCloseEvent event);
 
     protected abstract Inventory createInventory();
 }

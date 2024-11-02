@@ -24,12 +24,10 @@ public abstract class Button implements Component{
         throw new UnsupportedOperationException("\"Leaf node doesn't support getChildren() operation\"");
     }
 
-    @Override
     public String getName() {
         return this.name;
     }
 
-    @Override
     public ItemStack getIcon() {
         return this.icon;
     }
