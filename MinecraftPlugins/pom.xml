@@ -32,5 +32,6 @@
 	<modules>
 		<module>BukkitGames</module>
 		<module>MileniumCraft</module>
+		<module>EranoAPI</module>
 	</modules>
 </project>
