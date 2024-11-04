@@ -1,13 +1,20 @@
 package me.erano.com.core.menu;
 
 import org.bukkit.entity.Player;
+import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
+
+import java.util.function.Consumer;
+import java.util.function.Function;
 
 //leaf element of composite pattern for menu feature
 public abstract class Button implements Component{
 
     private ItemStack icon;
     private String name;
+
+    private Function<Player, ItemStack> creator;
+    private Consumer<InventoryClickEvent> consumer;
 
     @Override
     public void add(int index, Component component) {
@@ -30,5 +37,24 @@ public abstract class Button implements Component{
 
     public ItemStack getIcon() {
         return this.icon;
+    }
+    //builder
+    public Button creator(Function<Player, ItemStack> creator) {
+        this.creator = creator;
+        return this;
+    }
+
+    //builder
+    public Button consumer(Consumer<InventoryClickEvent> consumer) {
+        this.consumer = consumer;
+        return this;
+    }
+
+    public Consumer<InventoryClickEvent> getEventConsumer() {
+        return this.consumer;
+    }
+
+    public Function<Player, ItemStack> getIconCreator() {
+        return this.creator;
     }
 }
